@@ -64,7 +64,7 @@ userSchema.methods.generateAccessToken = function () {
   return Jwt.sign(
     {
       _id: this._id,
-      email: this._email,
+      email: this.email,
       userName: this.userName,
     },
     process.env.ACCESS_TOKEN_SECRET,
