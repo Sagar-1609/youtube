@@ -4,6 +4,7 @@ const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "./public/temp");
   },
+  // new ai call update
   filename: function (req, file, cb) {
     cb(null, file.originalname);
   },
@@ -13,3 +14,4 @@ const storage = multer.diskStorage({
 export const upload = multer({
   storage,
 });
+// we have another issue with the multer
