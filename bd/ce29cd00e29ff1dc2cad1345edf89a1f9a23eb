@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "bdce29cd00e29ff1dc2cad1345edf89a1f9a23eb",
+  "prompts": {},
+  "humans": {
+    "h_7a1be1f3febac1": {
+      "author": "sagarbhatia <bhatisagar812@gmail.com>"
+    }
+  }
+}
