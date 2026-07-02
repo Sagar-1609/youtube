@@ -8,7 +8,7 @@ const storage = multer.diskStorage({
     cb(null, file.originalname);
   },
 });
-// fit branhc merhge 
+// fit branhc merge 
 // this is for mr merge 
 export const upload = multer({
   storage,
