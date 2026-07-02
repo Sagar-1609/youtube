@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import { DB_name } from "../constant.js";
-// we have some issue with the mongoose 
+
 const connectDB = async () => {
   try {
     const connectiontag = await mongoose.connect(
